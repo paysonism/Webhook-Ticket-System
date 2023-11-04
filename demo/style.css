@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 100vh;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    }
+
+.sendbtn {
+    text-align: center;
+    align-items: center;
+}
+
+.titler {
+    width: 100%;
+    text-align: center;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+label {
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+input {
+    margin-top: 13px;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #dcdcdc;
+}
+
+textarea {
+    margin-top: 13px;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #dcdcdc;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    max-height: 251px;
+    height: 54vw;
+    padding: 20px;
+}
